@@ -1,8 +1,7 @@
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class Main
-extends JFrame {
+public class Main extends JFrame {
 
     public Main() {
         JLabel lblSaludo = new JLabel("Hola Mundo. Creando mi primer ejemplo");
@@ -16,6 +15,8 @@ extends JFrame {
 
         /*Cerrar ventana*/
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        this.setVisible(true);
     }
 
     public static void main(String[] args) {
